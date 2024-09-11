@@ -2,31 +2,31 @@
 Test set: com.artist.ArtistApplicationTests
 -------------------------------------------------------------------------------
 Tests run: 6, Failures: 6, Errors: 0, Skipped: 0, Time elapsed: 6.225 s <<< FAILURE! - in com.artist.ArtistApplicationTests
-testGetPlayListByID_NotFound  Time elapsed: 0.863 s  <<< FAILURE!
+testGetPlayListByID_NotFound  Time elapsed: 0.861 s  <<< FAILURE!
 java.lang.AssertionError: Status expected:<200> but was:<404>
 	at com.artist.ArtistApplicationTests.testGetPlayListByID_NotFound(ArtistApplicationTests.java:135)
 
-testListOfTracks  Time elapsed: 0.446 s  <<< FAILURE!
+testListOfTracks  Time elapsed: 0.391 s  <<< FAILURE!
 java.lang.AssertionError: No value at JSON path "$.id"
 	at com.artist.ArtistApplicationTests.testListOfTracks(ArtistApplicationTests.java:73)
 Caused by: java.lang.IllegalArgumentException: json can not be null or empty
 	at com.artist.ArtistApplicationTests.testListOfTracks(ArtistApplicationTests.java:73)
 
-testPlayListDeleteById  Time elapsed: 0.373 s  <<< FAILURE!
+testPlayListDeleteById  Time elapsed: 0.433 s  <<< FAILURE!
 java.lang.AssertionError: Status expected:<201> but was:<404>
 	at com.artist.ArtistApplicationTests.testPlayListDeleteById(ArtistApplicationTests.java:102)
 
-testListOfTracksEmpty  Time elapsed: 0.38 s  <<< FAILURE!
+testListOfTracksEmpty  Time elapsed: 0.352 s  <<< FAILURE!
 java.lang.AssertionError: Status expected:<200> but was:<404>
 	at com.artist.ArtistApplicationTests.testListOfTracksEmpty(ArtistApplicationTests.java:90)
 
-testCreatePlayList  Time elapsed: 0.495 s  <<< FAILURE!
+testCreatePlayList  Time elapsed: 0.357 s  <<< FAILURE!
 java.lang.AssertionError: No value at JSON path "$.id"
 	at com.artist.ArtistApplicationTests.testCreatePlayList(ArtistApplicationTests.java:59)
 Caused by: java.lang.IllegalArgumentException: json can not be null or empty
 	at com.artist.ArtistApplicationTests.testCreatePlayList(ArtistApplicationTests.java:59)
 
-testGetPlayListById  Time elapsed: 0.371 s  <<< FAILURE!
+testGetPlayListById  Time elapsed: 0.41 s  <<< FAILURE!
 java.lang.AssertionError: Status expected:<201> but was:<404>
 	at com.artist.ArtistApplicationTests.testGetPlayListById(ArtistApplicationTests.java:119)
 
