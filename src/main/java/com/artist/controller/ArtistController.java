@@ -27,7 +27,13 @@ public class ArtistController {
         this.artistService = artistService;
     }
 
-    @PostMapping()
+    @GetMapping("/home")
+    public String home(){
+        return "index";
+    }
+
+
+    @PostMapping("/create")
     public ResponseEntity<Artist> createPlayList(@RequestBody ArtistRequest artistRequest){
         Artist createdArtist = artistService.createArtist(artistRequest);
         return new ResponseEntity<>(createdArtist, HttpStatus.CREATED);
@@ -44,7 +50,7 @@ public class ArtistController {
         }
     }
 
-    @GetMapping
+    @GetMapping("/get")
     public ResponseEntity<List<Artist>> getAllArtists(){
         List<Artist> artists = artistService.getArtists();
         if(artists!=null){
