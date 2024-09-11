@@ -24,8 +24,8 @@ public class ArtistServiceImpl implements ArtistService {
     @Override
     public Artist createArtist(ArtistRequest artistRequest) {
         Artist artist = new Artist();
-        artist.setFirstName(artistRequest.firstName());
-        artist.setLastName(artistRequest.lastName());
+        artist.setFirstName(artistRequest.getFirstName());
+        artist.setLastName(artistRequest.getLastName());
         return artistRepository.save(artist);
     }
 

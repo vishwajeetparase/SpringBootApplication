@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.artist.ArtistApplicationTests" time="6.786" tests="6" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/workspaces/SpringBootApplication/target/test-classes:/workspaces/SpringBootApplication/target/classes:/home/codespace/.m2/repository/org/springframework/boot/spring-boot-starter/3.0.6/spring-boot-starter-3.0.6.jar:/home/codespace/.m2/repository/org/springframework/boot/spring-boot/3.0.6/spring-boot-3.0.6.jar:/home/codespace/.m2/repository/org/springframework/spring-context/6.0.8/spring-context-6.0.8.jar:/home/codespace/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/3.0.6/spring-boot-autoconfigure-3.0.6.jar:/home/codespace/.m2/repository/org/springframework/boot/spring-boot-starter-logging/3.0.6/spring-boot-starter-logging-3.0.6.jar:/home/codespace/.m2/repository/ch/qos/logback/logback-classic/1.4.7/logback-classic-1.4.7.jar:/home/codespace/.m2/repository/ch/qos/logback/logback-core/1.4.7/logback-core-1.4.7.jar:/home/codespace/.m2/repository/org/apache/logging/log4j/log4j-to-slf4j/2.19.0/log4j-to-slf4j-2.19.0.jar:/home/codespace/.m2/repository/org/apache/logging/log4j/log4j-api/2.19.0/log4j-api-2.19.0.jar:/home/codespace/.m2/repository/org/slf4j/jul-to-slf4j/2.0.7/jul-to-slf4j-2.0.7.jar:/home/codespace/.m2/repository/jakarta/annotation/jakarta.annotation-api/2.1.1/jakarta.annotation-api-2.1.1.jar:/home/codespace/.m2/repository/org/springframework/spring-core/6.0.8/spring-core-6.0.8.jar:/home/codespace/.m2/repository/org/springframework/spring-jcl/6.0.8/spring-jcl-6.0.8.jar:/home/codespace/.m2/repository/org/yaml/snakeyaml/1.33/snakeyaml-1.33.jar:/home/codespace/.m2/repository/org/springframework/boot/spring-boot-starter-web/3.0.6/spring-boot-starter-web-3.0.6.jar:/home/codespace/.m2/repository/org/springframework/boot/spring-boot-starter-json/3.0.6/spring-boot-starter-json-3.0.6.jar:/home/codespace/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.14.2/jackson-databind-2.14.2.jar:/home/codespace/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.14.2/jackson-annotations-2.14.2.jar:/home/codespace/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.14.2/jackson-core-2.14.2.jar:/home/codespace/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.14.2/jackson-datatype-jdk8-2.14.2.jar:/home/codespace/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.14.2/jackson-datatype-jsr310-2.14.2.jar:/home/codespace/.m2/repository/com/fasterxml/jackson/module/jackson-module-parameter-names/2.14.2/jackson-module-parameter-names-2.14.2.jar:/home/codespace/.m2/repository/org/springframework/boot/spring-boot-starter-tomcat/3.0.6/spring-boot-starter-tomcat-3.0.6.jar:/home/codespace/.m2/repository/org/apache/tomcat/embed/tomcat-embed-core/10.1.8/tomcat-embed-core-10.1.8.jar:/home/codespace/.m2/repository/org/apache/tomcat/embed/tomcat-embed-el/10.1.8/tomcat-embed-el-10.1.8.jar:/home/codespace/.m2/repository/org/apache/tomcat/embed/tomcat-embed-websocket/10.1.8/tomcat-embed-websocket-10.1.8.jar:/home/codespace/.m2/repository/org/springframework/spring-web/6.0.8/spring-web-6.0.8.jar:/home/codespace/.m2/repository/org/springframework/spring-beans/6.0.8/spring-beans-6.0.8.jar:/home/codespace/.m2/repository/io/micrometer/micrometer-observation/1.10.6/micrometer-observation-1.10.6.jar:/home/codespace/.m2/repository/io/micrometer/micrometer-commons/1.10.6/micrometer-commons-1.10.6.jar:/home/codespace/.m2/repository/org/springframework/spring-webmvc/6.0.8/spring-webmvc-6.0.8.jar:/home/codespace/.m2/repository/org/springframework/spring-aop/6.0.8/spring-aop-6.0.8.jar:/home/codespace/.m2/repository/org/springframework/spring-expression/6.0.8/spring-expression-6.0.8.jar:/home/codespace/.m2/repository/org/springframework/boot/spring-boot-starter-test/3.0.6/spring-boot-starter-test-3.0.6.jar:/home/codespace/.m2/repository/org/springframework/boot/spring-boot-test/3.0.6/spring-boot-test-3.0.6.jar:/home/codespace/.m2/repository/org/springframework/boot/spring-boot-test-autoconfigure/3.0.6/spring-boot-test-autoconfigure-3.0.6.jar:/home/codespace/.m2/repository/com/jayway/jsonpath/json-path/2.7.0/json-path-2.7.0.jar:/home/codespace/.m2/repository/net/minidev/json-smart/2.4.10/json-smart-2.4.10.jar:/home/codespace/.m2/repository/net/minidev/accessors-smart/2.4.9/accessors-smart-2.4.9.jar:/home/codespace/.m2/repository/org/ow2/asm/asm/9.3/asm-9.3.jar:/home/codespace/.m2/repository/org/slf4j/slf4j-api/2.0.7/slf4j-api-2.0.7.jar:/home/codespace/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/4.0.0/jakarta.xml.bind-api-4.0.0.jar:/home/codespace/.m2/repository/jakarta/activation/jakarta.activation-api/2.1.1/jakarta.activation-api-2.1.1.jar:/home/codespace/.m2/repository/org/assertj/assertj-core/3.23.1/assertj-core-3.23.1.jar:/home/codespace/.m2/repository/net/bytebuddy/byte-buddy/1.12.23/byte-buddy-1.12.23.jar:/home/codespace/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:/home/codespace/.m2/repository/org/junit/jupiter/junit-jupiter/5.9.2/junit-jupiter-5.9.2.jar:/home/codespace/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.9.2/junit-jupiter-api-5.9.2.jar:/home/codespace/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/codespace/.m2/repository/org/junit/platform/junit-platform-commons/1.9.2/junit-platform-commons-1.9.2.jar:/home/codespace/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/home/codespace/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.9.2/junit-jupiter-params-5.9.2.jar:/home/codespace/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.9.2/junit-jupiter-engine-5.9.2.jar:/home/codespace/.m2/repository/org/junit/platform/junit-platform-engine/1.9.2/junit-platform-engine-1.9.2.jar:/home/codespace/.m2/repository/org/mockito/mockito-core/4.8.1/mockito-core-4.8.1.jar:/home/codespace/.m2/repository/net/bytebuddy/byte-buddy-agent/1.12.23/byte-buddy-agent-1.12.23.jar:/home/codespace/.m2/repository/org/objenesis/objenesis/3.2/objenesis-3.2.jar:/home/codespace/.m2/repository/org/mockito/mockito-junit-jupiter/4.8.1/mockito-junit-jupiter-4.8.1.jar:/home/codespace/.m2/repository/org/skyscreamer/jsonassert/1.5.1/jsonassert-1.5.1.jar:/home/codespace/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar:/home/codespace/.m2/repository/org/springframework/spring-test/6.0.8/spring-test-6.0.8.jar:/home/codespace/.m2/repository/org/xmlunit/xmlunit-core/2.9.1/xmlunit-core-2.9.1.jar:/home/codespace/.m2/repository/org/springframework/boot/spring-boot-starter-data-jpa/3.0.6/spring-boot-starter-data-jpa-3.0.6.jar:/home/codespace/.m2/repository/org/springframework/boot/spring-boot-starter-aop/3.0.6/spring-boot-starter-aop-3.0.6.jar:/home/codespace/.m2/repository/org/aspectj/aspectjweaver/1.9.19/aspectjweaver-1.9.19.jar:/home/codespace/.m2/repository/org/springframework/boot/spring-boot-starter-jdbc/3.0.6/spring-boot-starter-jdbc-3.0.6.jar:/home/codespace/.m2/repository/com/zaxxer/HikariCP/5.0.1/HikariCP-5.0.1.jar:/home/codespace/.m2/repository/org/springframework/spring-jdbc/6.0.8/spring-jdbc-6.0.8.jar:/home/codespace/.m2/repository/org/hibernate/orm/hibernate-core/6.1.7.Final/hibernate-core-6.1.7.Final.jar:/home/codespace/.m2/repository/jakarta/persistence/jakarta.persistence-api/3.1.0/jakarta.persistence-api-3.1.0.jar:/home/codespace/.m2/repository/jakarta/transaction/jakarta.transaction-api/2.0.1/jakarta.transaction-api-2.0.1.jar:/home/codespace/.m2/repository/org/jboss/logging/jboss-logging/3.5.0.Final/jboss-logging-3.5.0.Final.jar:/home/codespace/.m2/repository/org/hibernate/common/hibernate-commons-annotations/6.0.6.Final/hibernate-commons-annotations-6.0.6.Final.jar:/home/codespace/.m2/repository/org/jboss/jandex/2.4.2.Final/jandex-2.4.2.Final.jar:/home/codespace/.m2/repository/com/fasterxml/classmate/1.5.1/classmate-1.5.1.jar:/home/codespace/.m2/repository/org/glassfish/jaxb/jaxb-runtime/4.0.2/jaxb-runtime-4.0.2.jar:/home/codespace/.m2/repository/org/glassfish/jaxb/jaxb-core/4.0.2/jaxb-core-4.0.2.jar:/home/codespace/.m2/repository/org/eclipse/angus/angus-activation/2.0.0/angus-activation-2.0.0.jar:/home/codespace/.m2/repository/org/glassfish/jaxb/txw2/4.0.2/txw2-4.0.2.jar:/home/codespace/.m2/repository/com/sun/istack/istack-commons-runtime/4.1.1/istack-commons-runtime-4.1.1.jar:/home/codespace/.m2/repository/jakarta/inject/jakarta.inject-api/2.0.0/jakarta.inject-api-2.0.0.jar:/home/codespace/.m2/repository/org/antlr/antlr4-runtime/4.10.1/antlr4-runtime-4.10.1.jar:/home/codespace/.m2/repository/org/springframework/data/spring-data-jpa/3.0.5/spring-data-jpa-3.0.5.jar:/home/codespace/.m2/repository/org/springframework/data/spring-data-commons/3.0.5/spring-data-commons-3.0.5.jar:/home/codespace/.m2/repository/org/springframework/spring-orm/6.0.8/spring-orm-6.0.8.jar:/home/codespace/.m2/repository/org/springframework/spring-tx/6.0.8/spring-tx-6.0.8.jar:/home/codespace/.m2/repository/org/springframework/spring-aspects/6.0.8/spring-aspects-6.0.8.jar:/home/codespace/.m2/repository/com/h2database/h2/2.1.214/h2-2.1.214.jar:"/>
+    <property name="java.vm.vendor" value="Microsoft"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://www.microsoft.com"/>
+    <property name="os.name" value="Linux"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="/usr/local/sdkman/candidates/java/17.0.12-ms/lib"/>
+    <property name="sun.java.command" value="/workspaces/SpringBootApplication/target/surefire/surefirebooter9353466935653908654.jar /workspaces/SpringBootApplication/target/surefire 2024-09-11T19-25-47_316-jvmRun1 surefire15654877193015866123tmp surefire_016160432010904014046tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/workspaces/SpringBootApplication/target/test-classes:/workspaces/SpringBootApplication/target/classes:/home/codespace/.m2/repository/org/springframework/boot/spring-boot-starter/3.0.6/spring-boot-starter-3.0.6.jar:/home/codespace/.m2/repository/org/springframework/boot/spring-boot/3.0.6/spring-boot-3.0.6.jar:/home/codespace/.m2/repository/org/springframework/spring-context/6.0.8/spring-context-6.0.8.jar:/home/codespace/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/3.0.6/spring-boot-autoconfigure-3.0.6.jar:/home/codespace/.m2/repository/org/springframework/boot/spring-boot-starter-logging/3.0.6/spring-boot-starter-logging-3.0.6.jar:/home/codespace/.m2/repository/ch/qos/logback/logback-classic/1.4.7/logback-classic-1.4.7.jar:/home/codespace/.m2/repository/ch/qos/logback/logback-core/1.4.7/logback-core-1.4.7.jar:/home/codespace/.m2/repository/org/apache/logging/log4j/log4j-to-slf4j/2.19.0/log4j-to-slf4j-2.19.0.jar:/home/codespace/.m2/repository/org/apache/logging/log4j/log4j-api/2.19.0/log4j-api-2.19.0.jar:/home/codespace/.m2/repository/org/slf4j/jul-to-slf4j/2.0.7/jul-to-slf4j-2.0.7.jar:/home/codespace/.m2/repository/jakarta/annotation/jakarta.annotation-api/2.1.1/jakarta.annotation-api-2.1.1.jar:/home/codespace/.m2/repository/org/springframework/spring-core/6.0.8/spring-core-6.0.8.jar:/home/codespace/.m2/repository/org/springframework/spring-jcl/6.0.8/spring-jcl-6.0.8.jar:/home/codespace/.m2/repository/org/yaml/snakeyaml/1.33/snakeyaml-1.33.jar:/home/codespace/.m2/repository/org/springframework/boot/spring-boot-starter-web/3.0.6/spring-boot-starter-web-3.0.6.jar:/home/codespace/.m2/repository/org/springframework/boot/spring-boot-starter-json/3.0.6/spring-boot-starter-json-3.0.6.jar:/home/codespace/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.14.2/jackson-databind-2.14.2.jar:/home/codespace/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.14.2/jackson-annotations-2.14.2.jar:/home/codespace/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.14.2/jackson-core-2.14.2.jar:/home/codespace/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.14.2/jackson-datatype-jdk8-2.14.2.jar:/home/codespace/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.14.2/jackson-datatype-jsr310-2.14.2.jar:/home/codespace/.m2/repository/com/fasterxml/jackson/module/jackson-module-parameter-names/2.14.2/jackson-module-parameter-names-2.14.2.jar:/home/codespace/.m2/repository/org/springframework/boot/spring-boot-starter-tomcat/3.0.6/spring-boot-starter-tomcat-3.0.6.jar:/home/codespace/.m2/repository/org/apache/tomcat/embed/tomcat-embed-core/10.1.8/tomcat-embed-core-10.1.8.jar:/home/codespace/.m2/repository/org/apache/tomcat/embed/tomcat-embed-el/10.1.8/tomcat-embed-el-10.1.8.jar:/home/codespace/.m2/repository/org/apache/tomcat/embed/tomcat-embed-websocket/10.1.8/tomcat-embed-websocket-10.1.8.jar:/home/codespace/.m2/repository/org/springframework/spring-web/6.0.8/spring-web-6.0.8.jar:/home/codespace/.m2/repository/org/springframework/spring-beans/6.0.8/spring-beans-6.0.8.jar:/home/codespace/.m2/repository/io/micrometer/micrometer-observation/1.10.6/micrometer-observation-1.10.6.jar:/home/codespace/.m2/repository/io/micrometer/micrometer-commons/1.10.6/micrometer-commons-1.10.6.jar:/home/codespace/.m2/repository/org/springframework/spring-webmvc/6.0.8/spring-webmvc-6.0.8.jar:/home/codespace/.m2/repository/org/springframework/spring-aop/6.0.8/spring-aop-6.0.8.jar:/home/codespace/.m2/repository/org/springframework/spring-expression/6.0.8/spring-expression-6.0.8.jar:/home/codespace/.m2/repository/org/springframework/boot/spring-boot-starter-test/3.0.6/spring-boot-starter-test-3.0.6.jar:/home/codespace/.m2/repository/org/springframework/boot/spring-boot-test/3.0.6/spring-boot-test-3.0.6.jar:/home/codespace/.m2/repository/org/springframework/boot/spring-boot-test-autoconfigure/3.0.6/spring-boot-test-autoconfigure-3.0.6.jar:/home/codespace/.m2/repository/com/jayway/jsonpath/json-path/2.7.0/json-path-2.7.0.jar:/home/codespace/.m2/repository/net/minidev/json-smart/2.4.10/json-smart-2.4.10.jar:/home/codespace/.m2/repository/net/minidev/accessors-smart/2.4.9/accessors-smart-2.4.9.jar:/home/codespace/.m2/repository/org/ow2/asm/asm/9.3/asm-9.3.jar:/home/codespace/.m2/repository/org/slf4j/slf4j-api/2.0.7/slf4j-api-2.0.7.jar:/home/codespace/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/4.0.0/jakarta.xml.bind-api-4.0.0.jar:/home/codespace/.m2/repository/jakarta/activation/jakarta.activation-api/2.1.1/jakarta.activation-api-2.1.1.jar:/home/codespace/.m2/repository/org/assertj/assertj-core/3.23.1/assertj-core-3.23.1.jar:/home/codespace/.m2/repository/net/bytebuddy/byte-buddy/1.12.23/byte-buddy-1.12.23.jar:/home/codespace/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:/home/codespace/.m2/repository/org/junit/jupiter/junit-jupiter/5.9.2/junit-jupiter-5.9.2.jar:/home/codespace/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.9.2/junit-jupiter-api-5.9.2.jar:/home/codespace/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/codespace/.m2/repository/org/junit/platform/junit-platform-commons/1.9.2/junit-platform-commons-1.9.2.jar:/home/codespace/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/home/codespace/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.9.2/junit-jupiter-params-5.9.2.jar:/home/codespace/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.9.2/junit-jupiter-engine-5.9.2.jar:/home/codespace/.m2/repository/org/junit/platform/junit-platform-engine/1.9.2/junit-platform-engine-1.9.2.jar:/home/codespace/.m2/repository/org/mockito/mockito-core/4.8.1/mockito-core-4.8.1.jar:/home/codespace/.m2/repository/net/bytebuddy/byte-buddy-agent/1.12.23/byte-buddy-agent-1.12.23.jar:/home/codespace/.m2/repository/org/objenesis/objenesis/3.2/objenesis-3.2.jar:/home/codespace/.m2/repository/org/mockito/mockito-junit-jupiter/4.8.1/mockito-junit-jupiter-4.8.1.jar:/home/codespace/.m2/repository/org/skyscreamer/jsonassert/1.5.1/jsonassert-1.5.1.jar:/home/codespace/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar:/home/codespace/.m2/repository/org/springframework/spring-test/6.0.8/spring-test-6.0.8.jar:/home/codespace/.m2/repository/org/xmlunit/xmlunit-core/2.9.1/xmlunit-core-2.9.1.jar:/home/codespace/.m2/repository/org/springframework/boot/spring-boot-starter-data-jpa/3.0.6/spring-boot-starter-data-jpa-3.0.6.jar:/home/codespace/.m2/repository/org/springframework/boot/spring-boot-starter-aop/3.0.6/spring-boot-starter-aop-3.0.6.jar:/home/codespace/.m2/repository/org/aspectj/aspectjweaver/1.9.19/aspectjweaver-1.9.19.jar:/home/codespace/.m2/repository/org/springframework/boot/spring-boot-starter-jdbc/3.0.6/spring-boot-starter-jdbc-3.0.6.jar:/home/codespace/.m2/repository/com/zaxxer/HikariCP/5.0.1/HikariCP-5.0.1.jar:/home/codespace/.m2/repository/org/springframework/spring-jdbc/6.0.8/spring-jdbc-6.0.8.jar:/home/codespace/.m2/repository/org/hibernate/orm/hibernate-core/6.1.7.Final/hibernate-core-6.1.7.Final.jar:/home/codespace/.m2/repository/jakarta/persistence/jakarta.persistence-api/3.1.0/jakarta.persistence-api-3.1.0.jar:/home/codespace/.m2/repository/jakarta/transaction/jakarta.transaction-api/2.0.1/jakarta.transaction-api-2.0.1.jar:/home/codespace/.m2/repository/org/jboss/logging/jboss-logging/3.5.0.Final/jboss-logging-3.5.0.Final.jar:/home/codespace/.m2/repository/org/hibernate/common/hibernate-commons-annotations/6.0.6.Final/hibernate-commons-annotations-6.0.6.Final.jar:/home/codespace/.m2/repository/org/jboss/jandex/2.4.2.Final/jandex-2.4.2.Final.jar:/home/codespace/.m2/repository/com/fasterxml/classmate/1.5.1/classmate-1.5.1.jar:/home/codespace/.m2/repository/org/glassfish/jaxb/jaxb-runtime/4.0.2/jaxb-runtime-4.0.2.jar:/home/codespace/.m2/repository/org/glassfish/jaxb/jaxb-core/4.0.2/jaxb-core-4.0.2.jar:/home/codespace/.m2/repository/org/eclipse/angus/angus-activation/2.0.0/angus-activation-2.0.0.jar:/home/codespace/.m2/repository/org/glassfish/jaxb/txw2/4.0.2/txw2-4.0.2.jar:/home/codespace/.m2/repository/com/sun/istack/istack-commons-runtime/4.1.1/istack-commons-runtime-4.1.1.jar:/home/codespace/.m2/repository/jakarta/inject/jakarta.inject-api/2.0.0/jakarta.inject-api-2.0.0.jar:/home/codespace/.m2/repository/org/antlr/antlr4-runtime/4.10.1/antlr4-runtime-4.10.1.jar:/home/codespace/.m2/repository/org/springframework/data/spring-data-jpa/3.0.5/spring-data-jpa-3.0.5.jar:/home/codespace/.m2/repository/org/springframework/data/spring-data-commons/3.0.5/spring-data-commons-3.0.5.jar:/home/codespace/.m2/repository/org/springframework/spring-orm/6.0.8/spring-orm-6.0.8.jar:/home/codespace/.m2/repository/org/springframework/spring-tx/6.0.8/spring-tx-6.0.8.jar:/home/codespace/.m2/repository/org/springframework/spring-aspects/6.0.8/spring-aspects-6.0.8.jar:/home/codespace/.m2/repository/com/h2database/h2/2.1.214/h2-2.1.214.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/home/codespace"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-07-16"/>
+    <property name="java.home" value="/usr/local/sdkman/candidates/java/17.0.12-ms"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/workspaces/SpringBootApplication"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="/workspaces/SpringBootApplication/target/surefire/surefirebooter9353466935653908654.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.12+7-LTS"/>
+    <property name="user.name" value="codespace"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="6.5.0-1025-azure"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Microsoft-9889599"/>
+    <property name="localRepository" value="/home/codespace/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/microsoft/openjdk/issues"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="17.0.12"/>
+    <property name="user.dir" value="/workspaces/SpringBootApplication"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Microsoft"/>
+    <property name="java.vm.version" value="17.0.12+7-LTS"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="testGetPlayListByID_NotFound" classname="com.artist.ArtistApplicationTests" time="0.835">
+    <failure message="Status expected:&lt;200&gt; but was:&lt;404&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Status expected:<200> but was:<404>
+	at com.artist.ArtistApplicationTests.testGetPlayListByID_NotFound(ArtistApplicationTests.java:135)
+]]></failure>
+    <system-out><![CDATA[19:25:48.049 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Neither @ContextConfiguration nor @ContextHierarchy found for test class [ArtistApplicationTests]: using SpringBootContextLoader
+19:25:48.053 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader -- Could not detect default resource locations for test class [com.artist.ArtistApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+19:25:48.053 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.artist.ArtistApplicationTests]: ArtistApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+19:25:48.085 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Using ContextCustomizers for test class [ArtistApplicationTests]: [ImportsContextCustomizer, ExcludeFilterContextCustomizer, DuplicateJsonObjectContextCustomizer, MockitoContextCustomizer, TestRestTemplateContextCustomizer, DisableObservabilityContextCustomizer, PropertyMappingContextCustomizer, Customizer]
+19:25:48.140 [main] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider -- Identified candidate component class: file [/workspaces/SpringBootApplication/target/classes/com/artist/ArtistApplication.class]
+19:25:48.141 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.artist.ArtistApplication for test class com.artist.ArtistApplicationTests
+19:25:48.215 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Using TestExecutionListeners for test class [ArtistApplicationTests]: [ServletTestExecutionListener, DirtiesContextBeforeModesTestExecutionListener, ApplicationEventsTestExecutionListener, MockitoTestExecutionListener, DependencyInjectionTestExecutionListener, DirtiesContextTestExecutionListener, TransactionalTestExecutionListener, SqlScriptsTestExecutionListener, EventPublishingTestExecutionListener, ResetMocksTestExecutionListener, RestDocsTestExecutionListener, MockRestServiceServerResetTestExecutionListener, MockMvcPrintOnlyOnFailureTestExecutionListener, WebDriverTestExecutionListener, MockWebServiceServerTestExecutionListener]
+19:25:48.216 [main] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener -- Before test class: class [ArtistApplicationTests], class annotated with @DirtiesContext [true] with mode [BEFORE_EACH_TEST_METHOD]
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.0.6)
+
+2024-09-11T19:25:48.612Z  INFO 34789 --- [           main] com.artist.ArtistApplicationTests        : Starting ArtistApplicationTests using Java 17.0.12 with PID 34789 (started by codespace in /workspaces/SpringBootApplication)
+2024-09-11T19:25:48.615Z  INFO 34789 --- [           main] com.artist.ArtistApplicationTests        : No active profile set, falling back to 1 default profile: "default"
+2024-09-11T19:25:49.153Z  INFO 34789 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-11T19:25:49.209Z  INFO 34789 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 47 ms. Found 1 JPA repository interfaces.
+2024-09-11T19:25:49.567Z  INFO 34789 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-11T19:25:49.610Z  INFO 34789 --- [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.7.Final
+2024-09-11T19:25:49.877Z  INFO 34789 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-09-11T19:25:50.054Z  INFO 34789 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2024-09-11T19:25:50.056Z  INFO 34789 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-09-11T19:25:50.079Z  INFO 34789 --- [           main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2024-09-11T19:25:50.755Z  INFO 34789 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-09-11T19:25:50.764Z  INFO 34789 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-11T19:25:51.206Z  WARN 34789 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-11T19:25:51.459Z  INFO 34789 --- [           main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2024-09-11T19:25:51.497Z  INFO 34789 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2024-09-11T19:25:51.497Z  INFO 34789 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-09-11T19:25:51.500Z  INFO 34789 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2024-09-11T19:25:51.520Z  INFO 34789 --- [           main] com.artist.ArtistApplicationTests        : Started ArtistApplicationTests in 3.152 seconds (process running for 4.047)
+2024-09-11T19:25:51.540Z  INFO 34789 --- [           main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-11T19:25:51.542Z  INFO 34789 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-09-11T19:25:51.555Z  INFO 34789 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.0.6)
+
+2024-09-11T19:25:51.580Z  INFO 34789 --- [           main] com.artist.ArtistApplicationTests        : Starting ArtistApplicationTests using Java 17.0.12 with PID 34789 (started by codespace in /workspaces/SpringBootApplication)
+2024-09-11T19:25:51.581Z  INFO 34789 --- [           main] com.artist.ArtistApplicationTests        : No active profile set, falling back to 1 default profile: "default"
+2024-09-11T19:25:51.701Z  INFO 34789 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-11T19:25:51.708Z  INFO 34789 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6 ms. Found 1 JPA repository interfaces.
+2024-09-11T19:25:51.789Z  INFO 34789 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-11T19:25:51.794Z  INFO 34789 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2024-09-11T19:25:51.796Z  INFO 34789 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection conn10: url=jdbc:h2:mem:testdb user=SA
+2024-09-11T19:25:51.796Z  INFO 34789 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2024-09-11T19:25:51.797Z  INFO 34789 --- [           main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2024-09-11T19:25:51.823Z  INFO 34789 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-09-11T19:25:51.823Z  INFO 34789 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-11T19:25:51.913Z  WARN 34789 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-11T19:25:52.001Z  INFO 34789 --- [           main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2024-09-11T19:25:52.019Z  INFO 34789 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2024-09-11T19:25:52.020Z  INFO 34789 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-09-11T19:25:52.020Z  INFO 34789 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2024-09-11T19:25:52.029Z  INFO 34789 --- [           main] com.artist.ArtistApplicationTests        : Started ArtistApplicationTests in 0.471 seconds (process running for 4.556)
+
+MockHttpServletRequest:
+      HTTP Method = GET
+      Request URI = /v1/artists/999
+       Parameters = {}
+          Headers = [Content-Type:"application/json;charset=UTF-8"]
+             Body = null
+    Session Attrs = {}
+
+Handler:
+             Type = com.artist.controller.ArtistController
+           Method = com.artist.controller.ArtistController#getArtistById(Long)
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 404
+    Error message = null
+          Headers = []
+     Content type = null
+             Body = 
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+
+MockHttpServletRequest:
+      HTTP Method = GET
+      Request URI = /v1/artists/999
+       Parameters = {}
+          Headers = [Content-Type:"application/json;charset=UTF-8"]
+             Body = null
+    Session Attrs = {}
+
+Handler:
+             Type = com.artist.controller.ArtistController
+           Method = com.artist.controller.ArtistController#getArtistById(Long)
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 404
+    Error message = null
+          Headers = []
+     Content type = null
+             Body = 
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+]]></system-out>
+  </testcase>
+  <testcase name="testListOfTracks" classname="com.artist.ArtistApplicationTests" time="0.61"/>
+  <testcase name="testPlayListDeleteById" classname="com.artist.ArtistApplicationTests" time="0.662"/>
+  <testcase name="testListOfTracksEmpty" classname="com.artist.ArtistApplicationTests" time="0.327"/>
+  <testcase name="testCreatePlayList" classname="com.artist.ArtistApplicationTests" time="0.362"/>
+  <testcase name="testGetPlayListById" classname="com.artist.ArtistApplicationTests" time="0.367"/>
+</testsuite>
