@@ -1,8 +1,0 @@
--------------------------------------------------------------------------------
-Test set: com.artist.ArtistApplicationTests
--------------------------------------------------------------------------------
-Tests run: 6, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 16.792 s <<< FAILURE! - in com.artist.ArtistApplicationTests
-testGetPlayListByID_NotFound  Time elapsed: 2.491 s  <<< FAILURE!
-java.lang.AssertionError: Status expected:<200> but was:<404>
-	at com.artist.ArtistApplicationTests.testGetPlayListByID_NotFound(ArtistApplicationTests.java:135)
-
