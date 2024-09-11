@@ -19,7 +19,6 @@ import com.artist.service.ArtistService;
 import jakarta.persistence.EntityNotFoundException;
 
 @RestController
-@RequestMapping("v1/artists")
 public class ArtistController {
     private final ArtistService artistService;
 
@@ -27,7 +26,7 @@ public class ArtistController {
         this.artistService = artistService;
     }
 
-    @GetMapping("/home")
+    @GetMapping("/")
     public String home(){
         return "index";
     }

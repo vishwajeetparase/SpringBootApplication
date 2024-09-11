@@ -1,7 +1,7 @@
-com/artist/service/impl/ArtistServiceImpl.class
-com/artist/model/Artist.class
-com/artist/controller/ArtistController.class
-com/artist/repository/ArtistRepository.class
-com/artist/ArtistApplication.class
-com/artist/service/ArtistService.class
-com/artist/dto/ArtistRequest.class
+com\artist\dto\ArtistRequest.class
+com\artist\service\impl\ArtistServiceImpl.class
+com\artist\model\Artist.class
+com\artist\controller\ArtistController.class
+com\artist\repository\ArtistRepository.class
+com\artist\ArtistApplication.class
+com\artist\service\ArtistService.class
